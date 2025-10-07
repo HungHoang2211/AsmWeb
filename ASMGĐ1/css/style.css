@@ -183,7 +183,7 @@
     }
 
     .contact-but {
-        background-color: #e30613;
+        background-color: #D80027;
         color: white;
         border: none;
         padding: 8px 18px;
@@ -499,17 +499,20 @@
     }
 
     .submit-form button {
-        background: #e30613;
+        background: #D80027;
         color: #fff;
-        border: none;
-        padding: 12px 20px;
+        border: solid;
+        border-radius: 7.5px;
+        border-color: #D80027;
+        margin: 10px;
+        padding: 10px 25px;
         font-weight: 600;
         cursor: pointer;
         transition: background 0.3s ease;
     }
 
     .submit-form button:hover {
-        background: #c00510;
+        background: #D80027;
     }
 
     /* Footer CSS */
@@ -565,7 +568,7 @@
     }
 
     .f-links a:hover {
-        color: #e30613;
+        color: #D80027;
     }
 
     .f-contact li {
@@ -724,7 +727,7 @@
     }
 
     .social-icons a:hover {
-        background: #e30613;
+        background: #D80027;
     }
 
     .contact-info-item i {
@@ -812,7 +815,7 @@
     }
 
     .contact-submit {
-        background: #e30613;
+        background: #D80027;
         color: #fff;
         border: none;
         padding: 12px 26px;
@@ -824,5 +827,5 @@
     }
 
     .contact-submit:hover {
-        background: #c00510;
+        background: #D80027;
     }
