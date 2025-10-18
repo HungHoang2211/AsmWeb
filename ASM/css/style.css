@@ -1164,11 +1164,13 @@
         border: solid;
         border-radius: 50%;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
+                color: red;
+        background-color: white;
     }
 
     .po-s1-item a:hover {
-        color: red;
-        background-color: white;
+        color: white;
+        background-color: black;
         transform: translateY(-2px);
     }
 
