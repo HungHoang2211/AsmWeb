@@ -1055,7 +1055,7 @@
         margin-bottom: 50px;
         text-align: left;
         padding-left: 60px;
-        
+
     }
 
     .team-grid {
@@ -1193,13 +1193,13 @@
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
-    .ps2-video iframe{
+    .ps2-video iframe {
         border-radius: 20px;
     }
 
-    .ps2-video:hover{
+    .ps2-video:hover {
         transform: translateY(-3px);
-        
+
     }
 
     .ps2-des-vid {
@@ -1221,7 +1221,7 @@
         font-family: 'Poppins';
     }
 
-    .ps2-des-vid ul li a{
+    .ps2-des-vid ul li a {
         font-size: 14px;
         margin: 5px;
         font-family: 'Poppins';
@@ -1258,6 +1258,71 @@
         font-size: 20px;
         color: #2FAB73;
     }
+
+    /* PS3 */
+
+    .ps3-section {
+        padding: 100px 50px;
+    }
+
+    .ps3-container {
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    .ps3-content {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 50px;
+        max-width: 1100px;
+        margin: 200px auto;
+        font-family: 'Poppins';
+    }
+
+    .ps3c-left {
+        max-width: 400px;
+    }
+
+    .ps3c-left h1 {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 1;
+        margin-bottom: 50px;
+        font-family: 'Poppins';
+    }
+
+    .ps3c-left p {
+        font-size: 14px;
+        font-family: 'Poppins';
+        line-height: 2;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .ps3-read-more {
+        background: #d80027;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-weight: 600;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+    .ps3-read-more:hover {
+        background: #b1001f;
+    }
+
+    .ps3c-right {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    /* PS4 */
+
+
 
 
     /* News Page */
@@ -1704,3 +1769,260 @@
     .contact-submit:hover {
         background: #D80027;
     }
+
+
+
+    .testimonials-section {
+        background-color: #F0F4F8;
+        padding: 80px 0;
+        color: #D0CAC7
+    }
+
+    .testimonials-section {
+        font-family: 'Poppins';
+    }
+
+    .testimonial-title {
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+        color: #070320;
+        margin-bottom: 15px;
+    }
+
+    .testimonial-subtitle {
+        font-size: 15px;
+        color: #555;
+        text-align: center;
+        line-height: 1.6;
+        max-width: 450px;
+        margin: 0 auto 50px auto;
+    }
+
+    .testimonial-viewport {
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+    .testimonial-track {
+        display: flex;
+        gap: 30px;
+        transition: transform 0.5s ease-in-out;
+    }
+
+
+    .testimonial-card {
+        flex: 0 0 calc(33.333% - 20px);
+        min-width: calc(33.333% - 20px);
+        background: #ffffff;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 25px;
+        transition: all 0.4s ease;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 15px;
+    }
+
+    .card-user-info {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .card-user-info img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        background: #ddd;
+    }
+
+    .card-user-details h4 {
+        font-size: 16px;
+        font-weight: 700;
+        color: #070320;
+        margin-bottom: 3px;
+    }
+
+    .card-user-details span {
+        font-size: 13px;
+        color: #777;
+    }
+
+    .card-rating {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 15px;
+        font-weight: 700;
+        color: #070320;
+    }
+
+    .card-rating svg {
+
+        width: 18px;
+        height: 18px;
+    }
+
+    /* Phần text đánh giá */
+    .card-body p {
+        font-size: 14px;
+        line-height: 1.6;
+        color: #333;
+    }
+
+
+    .testimonial-card.active {
+        background: #212121;
+        color: #ffffff;
+        border-color: #212121;
+        transform: translateY(-5px);
+    }
+
+    .testimonial-card.active .card-user-details h4 {
+        color: #ffffff;
+    }
+
+    .testimonial-card.active .card-user-details span {
+        color: #ddd;
+    }
+
+    .testimonial-card.active .card-rating {
+        color: #ffffff;
+    }
+
+    .testimonial-card.active .card-body p {
+        color: #eee;
+    }
+
+    .testimonial-controls {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        padding: 0 5px;
+    }
+
+
+    .slider-pagination {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .slider-pagination .dot {
+        display: block;
+        width: 10px;
+        height: 10px;
+        background: #D9D9D9;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .slider-pagination .dot.active {
+        background: #D80027;
+        width: 25px;
+        border-radius: 5px;
+    }
+
+    .slider-nav {
+        display: flex;
+        gap: 15px;
+    }
+
+    .slider-btn {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        border: 1px solid #E0E0E0;
+        background: #ffffff;
+        color: #D80027;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slider-btn:hover {
+        background: #f1f1f1;
+        border-color: #ccc;
+    }
+
+    .slider-btn.next-btn {
+        background: #D80027;
+        color: #ffffff;
+        border-color: #D80027;
+    }
+
+    .slider-btn.next-btn:hover {
+        background: #c00510;
+    }
+
+    .slider-btn:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+        background: #E0E0E0;
+        color: #999;
+        border-color: #E0E0E0;
+    }
+
+    .slider-btn.next-btn:disabled {
+        background: #D80027;
+        color: #ffffff;
+        opacity: 0.5;
+        border-color: #D80027;
+    }
+
+
+    @media (max-width: 768px) {
+  /* Ẩn những phần không cần thiết hoặc xếp dọc */
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonial-card {
+    flex: 0 0 100%;    /* mỗi lần chỉ hiển thị 1 card */
+    min-width: 100%;
+  }
+
+  .testimonial-track {
+    gap: 15px;
+  }
+
+  .f-social {
+    text-align: center;
+  }
+
+  footer .f-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  section, .container {
+    padding: 40px 15px;
+  }
+}
+
+/* TABLET (màn hình từ 768px đến 1024px) */
+@media (max-width: 1024px) and (min-width: 768px) {
+  .testimonial-card {
+    flex: 0 0 48%;    /* hiển thị 2 card */
+  }
+
+  .testimonial-track {
+    gap: 20px;
+  }
+}
